@@ -1,0 +1,28 @@
+body {
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.afnff {
+    background: url(https://sacher.com.mx/media/magefan_blog/pastelin.jpg);
+    width: 600px;
+    height: 600px;
+    filter: blur(2px) saturate(3) contrast(50) invert(1);
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    50% {
+        transform: rotateX(360deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
