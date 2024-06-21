@@ -3,12 +3,17 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
+}
+
+h1 {
+    margin-top: 0;
 }
 
 .afnff {
     background: url(https://sacher.com.mx/media/magefan_blog/pastelin.jpg);
     width: 600px;
-    height: 600px;
+    height: 595px;
     filter: blur(2px) saturate(3) contrast(50) invert(1);
     animation: rotate 1s infinite;
 }
@@ -24,5 +29,29 @@ body {
 
     100% {
         transform: rotateX(0deg);
+    }
+}
+
+@media (max-width: 500px) {
+    .afnff {
+        width: 400px;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 399px) {
+    .afnff {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 349px) {
+    .afnff {
+        width: 330px;
+        height: 330px;
     }
 }
