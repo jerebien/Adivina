@@ -33,7 +33,7 @@ h1 {
 }
 
 @media (max-width: 500px) {
-    .afnff {
+    .the-box {
         width: 400px;
         height: 400px;
         background-size: cover;
@@ -43,14 +43,14 @@ h1 {
 }
 
 @media (max-width: 399px) {
-    .afnff {
+    .the-box {
         width: 350px;
         height: 350px;
     }
 }
 
 @media (max-width: 349px) {
-    .afnff {
+    .the-box {
         width: 330px;
         height: 330px;
     }
