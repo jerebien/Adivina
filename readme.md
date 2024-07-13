@@ -1,1 +1,1 @@
-En esta página usaré mis ultimos conocimientos para haver un juego.Adivinar esa imagen.¿Qué es?¿Un bosqué?¿Un mar?Lo peor es que la imagen se mueve,los colores estan saturados y invertidos y esta desenfocada.¿Lo lograras?
+En esta página usaré mis últimos conocimientos para hacer un juego. Adivinar esa imagen. ¿Qué es? ¿Un bosque? ¿Un mar?. Lo peor es que la imagen se mueve,los colores están saturados e invertidos y está desenfocada. ¿Lo lograrás?.
